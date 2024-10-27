@@ -11,7 +11,7 @@ PopChoice is a personalized movie recommendation app that helps you discover you
 
 ## Technology Stack
 
-- **Frontend**: Vue 3 + Nuxt 3 with Tailwind CSS for fast and responsive UI.
+- **Frontend**: Nuxt 3 with Tailwind CSS for fast and responsive UI.
 - **Backend**: Nuxt 3 API routes for secure backend API calls.
 - **Supabase**: Stores and retrieves movie embeddings, using a vector database to handle similarity searches.
 - **OpenAI API**: Utilizes OpenAI's embedding model to convert user preferences into embeddings, enabling the app to find similar movies.
