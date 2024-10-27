@@ -73,7 +73,7 @@ Before running the app, please ensure you have completed the following steps:
    $$;
    ```
 
-   3. **Create a Supabase Table for Movies**:
+3. **Create a Supabase Table for Movies**:
    - Uncomment the data insertion button in the splash screen to insert data from `movies.txt` (public folder) into your Supabase `movies` table.
    - After the data has been successfully inserted, comment out the insertion button again to avoid re-adding the data each time the app is run.
 
