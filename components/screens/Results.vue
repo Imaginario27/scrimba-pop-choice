@@ -40,7 +40,7 @@
         <div v-else>
             <ResultItem 
                 v-if="currentFilm"
-                :poster="currentFilm.poster || testFilmPoster" 
+                :poster="currentFilm.poster || placeholderPoster" 
                 :title="currentFilm.title"
                 :year="currentFilm.year"
                 :ageRestriction="currentFilm.ageRestriction"
@@ -63,7 +63,7 @@
 
 <script setup>
 import { ref, computed, onMounted } from "vue"
-import testFilmPoster from '@/assets/images/test-film-poster.jpg'
+import placeholderPoster from '@/assets/images/placeholder-poster.jpg'
 import { Screen } from '@/types/screen'
 import { useSearchStore } from '@/stores/searchStore'
 
